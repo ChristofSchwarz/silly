@@ -14,4 +14,4 @@ The app shown in the video is attached here as .zip (unzip first then import in 
  
   - 2019 https://www.youtube.com/watch?v=risl1RTplzw
 
-![screenshot](mosc2019.png "screenshot")
+![screenshot](mosc2019.png "screenshot" | width=280)
