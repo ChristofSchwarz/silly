@@ -14,4 +14,4 @@ The app shown in the video is attached here as .zip (unzip first then import in 
  
   - 2019 https://www.youtube.com/watch?v=risl1RTplzw
 
-![](mosc2019.png | width=300)
+<img src="mosc2019.png" width="300">
