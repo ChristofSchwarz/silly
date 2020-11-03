@@ -32,7 +32,7 @@ have, in the example below it is 11, but you can increase/decrease as you like:
  - Under Appearance / Design set the Stroke type to "Straight" and turn off the Legend
  - Want to see the spider in the center? There are a few extra step needed:
      - Pull a "Multi KPI" object to the same sheet.
-     - As a Measure add `'spider'` so that the KPI shows the text. It is important to put 'spider' there, otherwise this easteregg will not work :-)
+     - As a Measure add `='spider'` so that the KPI shows the text. It is important to put 'spider' there, otherwise this easteregg will not work :-)
      - Go to Appearance / Styles copy <a href="https://raw.githubusercontent.com/ChristofSchwarz/silly/main/spider.css">this css</a> into the "Styles (CSS)" 
        box found there. The spider will not yet show, two more steps to go!
      - Find out the object id of the spider web chart. You can see it in Analysis mode, when you right-click on the spider web, 
