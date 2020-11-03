@@ -8,7 +8,12 @@ Included in 2020: The PacMan Chart, the Minecraft Chart, the Tetris Chart, the E
 the Earth Rotation Chart, The Spiderweb Chart, the "Kranz" Chart, the Mandelbrot Chart, and the Qlik Guru Picture.
 
 The app shown in the video is attached here as .zip (unzip first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
+
+ ## Things you can paint when you are bored (no data load needed)
  
+ ### The PacMan Chart
+ 
+ ### The Spider Web Chart
  
  ## Earlier versions
  
