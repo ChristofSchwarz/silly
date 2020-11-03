@@ -11,7 +11,8 @@ The app shown in the video is attached <a href="https://github.com/ChristofSchwa
 first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
 
  ## Things you can paint in Qlik Sense when you are bored 
- With the help of the `ValueLoop(...)` or `ValueList(...)` formulas a chart can spin up a dimensionality without data being loaded before. Try it out:
+ With the help of the `ValueLoop(...)` or `ValueList(...)` formulas a chart can spin up a dimensionality without data being loaded before. You need a 
+ Professional License Type to be able to edit sheets. You got one? Try it out:
  
  <img src="pacman_spiderweb.png" width="450">
  
