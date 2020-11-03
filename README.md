@@ -7,7 +7,8 @@ It is November again, time to make some real fun with Qlik Sense charts. In anal
 Included in 2020: The PacMan Chart, the Minecraft Chart, the Tetris Chart, the Empire State Chart, the Country Lane Chart, the London Bridge Chart, 
 the Earth Rotation Chart, The Spiderweb Chart, the "Kranz" Chart, the Mandelbrot Chart, and the Qlik Guru Picture.
 
-The app shown in the video is attached here as .zip (unzip first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
+The app shown in the video is attached <a href="https://github.com/ChristofSchwarz/silly/raw/main/Silly%20Charts%202020.qvf.zip">here as .zip</a> (unzip
+first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
 
  ## Things you can paint when you are bored 
  With the help of the `ValueLoop(...)` or `ValueList(...)` formulas a chart can spin up a dimensionality without data being loaded before. Try it out:
