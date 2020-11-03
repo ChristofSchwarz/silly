@@ -5,6 +5,9 @@ It is November again, time to make some real fun with Qlik Sense charts. In anal
  - 2019 https://www.youtube.com/watch?v=risl1RTplzw
  - 2020 
  
- The app shown in the video is attached here as .zip (unzip first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
+Included in 2020: The PacMan Chart, the Minecraft Chart, the Tetris Chart, the Empire State Chart, the Country Lane Chart, the London Bridge Chart, 
+the Earth Rotation Chart, The Spiderweb Chart, the "Kranz" Chart, the Mandelbrot Chart, and the Qlik Guru Picture.
+
+The app shown in the video is attached here as .zip (unzip first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
  
  
