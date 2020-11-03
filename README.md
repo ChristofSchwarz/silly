@@ -10,7 +10,7 @@ the Earth Rotation Chart, The Spiderweb Chart, the "Kranz" Chart, the Mandelbrot
 The app shown in the video is attached <a href="https://github.com/ChristofSchwarz/silly/raw/main/Silly%20Charts%202020.qvf.zip">here as .zip</a> (unzip
 first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
 
- ## Things you can paint when you are bored 
+ ## Things you can paint in Qlik Sense when you are bored 
  With the help of the `ValueLoop(...)` or `ValueList(...)` formulas a chart can spin up a dimensionality without data being loaded before. Try it out:
  
  <img src="pacman_spiderweb.png" width="450">
