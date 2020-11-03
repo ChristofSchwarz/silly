@@ -9,11 +9,21 @@ the Earth Rotation Chart, The Spiderweb Chart, the "Kranz" Chart, the Mandelbrot
 
 The app shown in the video is attached here as .zip (unzip first then import in QMC or export to `My Documents\Qlik\Sense\Apps`)
 
- ## Things you can paint when you are bored (no data load needed)
+ ## Things you can paint when you are bored 
+ With the help of the `ValueLoop(...)` or `ValueList(...)` formulas a chart can spin up a dimensionality without data being loaded before. Try it out:
  
  ### The PacMan Chart
  
+ Start a new Pie Chart by dragging and dropping the pie chart symbol to the sheet.
+  - As Dimension put this formula `=ValueLoop(1,2)'
+  - Add a 1st Measure `=RowNo()-.5` which will drive the portion of the pie in the ratio 0.5 and 1.5, turning into 90° and 270°
+  - Add a 2nd Measure `=RowNo()-.7` which will drive the size of the slice, the first one being much smaller, like 0.3 : 1.3
+  - Down at the Appearance accordion section, find Colors and put "By Expression"
+  - use this color formula `=Pick(RowNo(),Null(),'#FEFB00')` which will give the small segment a default color and the 2nd segment a yellow color
+  - Under "Presentation" go to the advanced Styling and add a Large Outline width in White, so that the segments do not meet each other
+  
  ### The Spider Web Chart
+ 
  
  ## Earlier versions
  
