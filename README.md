@@ -35,10 +35,11 @@ have, in the example below it is 11, but you can increase/decrease as you like:
      - As a Measure add `='spider'` so that the KPI shows the text. It is important to put 'spider' there, otherwise this easteregg will not work :-)
      - Go to Appearance / Styles copy <a href="https://raw.githubusercontent.com/ChristofSchwarz/silly/main/spider.css">this css</a> into the "Styles (CSS)" 
        box found there. The spider will not yet show, two more steps to go!
-     - Find out the object id of the spider web chart. You can see it in Analysis mode, when you right-click on the spider web, 
-       select "Share" and "Embed" -> the object Id is printed just in the Preview window in the upper part. Copy that id to the clipboard.
-     - replace the `?`(question mark) after `container_` with the id of the chart, so it reads something like `container_uvYt:before` ...
-     - Now the spider shows!
+     - Find out the object id of the spider web chart. Toggle from Edit Mode to Analysis mode and right-click on the spider web
+     - Select "Share" and "Embed" -> the object Id is printed just in the Preview window in the upper part. Copy that id to the clipboard.
+     - Toggle back to Edit Mode and find back the CSS properties in the Multi KPI object where you pasted the CSS before
+     - Replace the `?`(question mark) after `#container_` with the id of the chart, so it reads something like `#container_uvYt:before` ...
+     - Now the spider should show. Maybe it takes a browser refresh of that page.
  
  ## Earlier versions
  
