@@ -33,7 +33,9 @@ have, in the example below it is 11, but you can increase/decrease as you like:
  - Want to see the spider in the center? There is an extra step needed:
      - Find out the object id of the new chart. You can see it in Analysis mode, when you right-click on the 
    chart, select "Share" and "Embed" -> the object Id is printed just in the Preview window in the upper part. Copy/Paste that id
-     - 
+     - Pull a "Multi KPI" object to the same sheet.
+     - As a Measure add `1` so that the KPI shows something
+     - Go to Appearance / Styles copy/paste <a href="spider.css">this css</a>
  
  ## Earlier versions
  
