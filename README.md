@@ -15,7 +15,7 @@ The app shown in the video is attached here as .zip (unzip first then import in 
  ### The PacMan Chart
  
 Start a new Pie Chart by dragging and dropping the pie chart symbol to the sheet.
-  - As Dimension put this formula `=ValueLoop(1,2)'
+  - As Dimension put this formula `=ValueLoop(1,2)`
   - Add a 1st Measure `=RowNo()-.5` which will drive the portion of the pie in the ratio 0.5 and 1.5, turning into 90° and 270°
   - Add a 2nd Measure `=RowNo()-.7` which will drive the size of the slice, the first one being much smaller, like 0.3 : 1.3
   - Down at the Appearance accordion section, find Colors and put "By Expression"
