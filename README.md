@@ -12,6 +12,5 @@ The app shown in the video is attached here as .zip (unzip first then import in 
  
  ## Earlier versions
  
-  - 2019 https://www.youtube.com/watch?v=risl1RTplzw
-
-<img src="mosc2019.png" width="300">
+ - 2019 https://www.youtube.com/watch?v=risl1RTplzw
+ - <img src="mosc2019.png" width="350">
