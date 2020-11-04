@@ -32,12 +32,12 @@ Start a new "Radar Chart" from the Custom Objects / Qlik Visualization bundle to
 have, in the example below it is 11, but you can increase/decrease as you like:
  - As 1st Dimension put `=ValueLoop(1,5)`
  - As 2nd Dimension put `=ValueLoop(1,11)` (here we go for the 11-spokes spider web)
- - As Measure put `=1.5 + Floor((RowNo(TOTAL)-1)/11) + Mod(RowNo(),2)/(5-Floor((RowNo(TOTAL)-1)/11))` (note the 11 again)
+ - As Measure put `=1.5 + Floor((RowNo(TOTAL)-1)/11) + Mod(RowNo(),2)/(5-Floor((RowNo(TOTAL)-1)/11))` (note we use 11 twice here)
  - Under Appearance / Design set the Stroke type to "Straight" and turn off the Legend
  
 Want to see the spider in the center? There are a few extra step needed:
  - Pull a "Multi KPI" object to the same sheet.
- - As a Measure add `='spider'` so that the KPI shows the text. It is important to put 'spider' there, otherwise this easteregg will not work :-)
+ - As a Measure add `='spider'` so that the KPI shows the text. It is important to put 'spider' there :-)
  - Go to Appearance / Styles copy <a href="https://raw.githubusercontent.com/ChristofSchwarz/silly/main/spider.css">this css</a> into the "Styles (CSS)" 
    box found there. The spider will not yet show, two more steps to go!
  - Find out the object id of the spider web chart. Toggle from Edit Mode to Analysis mode and right-click on the spider web
